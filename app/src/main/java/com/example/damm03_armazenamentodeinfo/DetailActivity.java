@@ -30,6 +30,7 @@ public class DetailActivity extends AppCompatActivity{
     public void btnClickDelete(View v){
         Intent i = new Intent();
         i.putExtra("id", id);
+
         setResult(DELETERECORD, i);
         finish();
     }
